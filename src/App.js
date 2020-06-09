@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import Dinner from'./dinner.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>My  Name is <i>Noor Khan</i> Waleed</h1>
-      <p>The University Of <b>Lahore</b> (Sargodha Campus)</p>
-    
+      <Dinner></Dinner>
+      <Dinner myName="Abdul Noor Khan Waleed" uniName="University Of Lahore "/>
     </div>
   );
 }
