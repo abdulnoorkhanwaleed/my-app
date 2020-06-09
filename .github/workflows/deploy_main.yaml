@@ -30,10 +30,10 @@ jobs:
         cmd: install # will run `yarn install` command
         
     - name: Build React App
-      run: npm build
+      run: yarn build
     
     - name: Install Surge
       run: npm install -g surge
     
     - name: Deploy to Surge
-      run: surge ./build http://noor-khan-react.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build my-react-learning-class.surge.sh --token ${{secrets.SURGE_TOKEN}}
