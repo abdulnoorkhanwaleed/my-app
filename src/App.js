@@ -6,7 +6,7 @@ import Names from'./name.js'
 function App() {
   return (
     <div className="App">
-      <Dinner myName="Abdul Noor Khan Waleed" uniName="University Of Lahore "/>
+      <Names myName="Abdul Noor Khan Waleed" uniName="University Of Lahore "/>
     </div>
   );
 }
