@@ -5,7 +5,7 @@ import Dinner from'./dinner.js'
 function App() {
   return (
     <div className="App">
-      <Dinner myName="Abdul Noor Khan Waleed" uniName="University Of Lahore "/>
+      <Dinner myName="Abdul Noor Khan Waleed" uniName="University Of <b>Lahore</b> "/>
     </div>
   );
 }
