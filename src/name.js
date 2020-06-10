@@ -1,5 +1,5 @@
 import React from 'react';
-function Dinner(props){
+function Names(props){
     return(
         <div>
 
@@ -9,4 +9,4 @@ function Dinner(props){
         </div>
     )
 }
-export default Dinner;
+export default Names;
