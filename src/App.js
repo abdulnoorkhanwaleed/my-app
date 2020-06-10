@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import './App.css';
-import Dinner from'./dinner.js'
+import Names from'./name.js'
 
 function App() {
   return (
